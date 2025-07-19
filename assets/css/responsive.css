@@ -12,11 +12,24 @@
   .about {
     flex-direction: column-reverse;
   }
+  .projects {
+    padding: 2rem;
+  }
+  .projects-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 /* Medium devices (tablets, 768px to 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .hero-content h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
+  }
+  .projects-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
   }
 }

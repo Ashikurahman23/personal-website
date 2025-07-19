@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+:root {
+  --main-color: linear-gradient(to top, #f46060, #ff8063);
+  --text-color: #363958;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.text-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+.section-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+
+header,
+main,
+footer {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1%;
+}
+.btn {
+  display: inline-block;
+  padding: 1.1rem 3.5rem;
+  border-radius: 0.5rem;
+  background: var(--main-color);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  background: #f46060;
+  transform: translateY(-3px);
+}
+/* Header Started */
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.nav ul li {
+  margin-right: 1.5rem;
+}
+.nav ul li a {
+  transition: 0.3s ease-in-out;
+}
+.nav ul li a:hover,
+#myName {
+  background: var(--main-color);
+  background-clip: text;
+  color: transparent;
+}
+.hero,
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content,
+.hero-img,
+.about-content,
+.about-img {
+  flex: 1 1 50%; /* 40-50% width */
+}
+.hero-content h1 {
+  font-size: 5rem;
+}
+.heading-para {
+  margin: 1.5rem 0;
+}
+.hero-img img,
+.about-img img {
+  width: 100%;
+  height: auto;
+}

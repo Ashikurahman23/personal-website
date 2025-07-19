@@ -41,7 +41,7 @@ a {
 header,
 .about,
 .projects-container,
-footer {
+.footer-container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 1%;
@@ -141,4 +141,54 @@ footer {
   margin-bottom: 1.5rem;
   height: auto;
   border-radius: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #fff;
+}
+.footer-container {
+  padding: 6.25rem 0;
+}
+
+.lets-chat {
+  background: url('../shapes/Group_33094_1.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5.5rem;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.lets-chat h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+}
+.footer-social {
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer-social p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: rgba(105, 104, 113, 1);
+}
+.footer-social h3 {
+  font-size: 2.2rem;
+  margin: 1rem 0;
+}
+.social-icon {
+  margin: 0 auto;
+  width: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.social-icon img {
+  width: 100%;
+  display: block;
 }
